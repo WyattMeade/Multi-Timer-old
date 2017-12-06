@@ -1,0 +1,11 @@
+.testing {
+	width: 20%;
+
+	.nested-test {
+		width: 25%;
+
+		.more-nests {
+			width: 30%;
+		}
+	}
+}

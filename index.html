@@ -1,11 +1,37 @@
 <head>
 	<title>Multi-timer</title>
-	<link rel="stylesheet" type="text/css" href="styles/.styles.css">
+	<style>
+		@import url('https://fonts.googleapis.com/css?family=Barlow|Rajdhani');
+	</style>
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
 </head>
 <body>
-	<section></section>
-	<section></section>
-	<section></section>
+	<section class="section-timer">
+		<p>01:20:30</p>
+	</section>
+
+	<section class="section-form">
+		<form class="timer-form">
+			<div class="hours">
+				<label for="hours">Hours</label>
+				<input type="text" id="hours" name="timer_hours">
+			</div>
+			<div class="minutes">
+				<label for="minutes">Minutes</label>
+				<input type="text" id="minutes" name="timer_hours">
+			</div>
+			<div class="seconds">
+				<label for="seconds">Seconds</label>
+				<input type="text" id="minutes" name="timer_seconds">
+			</div>
+			<div class="description">
+				<label for="description">Description</label>
+				<textarea id="description" name="timer_description"></textarea>
+			</div>
+		</form>
+	</section>
+	
+	<section class="section-list"></section>
 </body>
 <footer>
 	<script src="scripts/scripts,js"></script>

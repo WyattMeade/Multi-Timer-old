@@ -1,6 +1,36 @@
-.testing {
-  width: 20%; }
-  .testing .nested-test {
-    width: 25%; }
-    .testing .nested-test .more-nests {
-      width: 30%; }
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #282830;
+  color: #fff; }
+
+.section-timer {
+  width: 100%;
+  margin: 0 auto 30px;
+  font-family: 'Barlow', sans-serif;
+  border: 1px solid #000;
+  box-sizing: border-box; }
+  .section-timer p {
+    font-size: 245px;
+    text-align: center;
+    margin: 0; }
+
+.section-form {
+  width: 35%;
+  padding: 20px;
+  font-family: 'Rajdhani', sans-serif;
+  border: 1px solid #000;
+  box-sizing: border-box; }
+  .section-form label {
+    width: 30%;
+    display: inline-block;
+    font-size: 38px;
+    vertical-align: middle; }
+  .section-form input {
+    width: 10%;
+    display: inline-block;
+    vertical-align: middle; }
+  .section-form textarea {
+    width: 70%;
+    vertical-align: middle; }
